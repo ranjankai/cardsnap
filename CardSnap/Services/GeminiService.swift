@@ -4,11 +4,17 @@ class GeminiService {
     static let shared = GeminiService()
     
     private var apiKey: String {
+        // 1. Try reading securely from native Keychain (User key)
+        if let keychainKey = KeychainHelper.shared.read(), !keychainKey.isEmpty {
+            return keychainKey
+        }
+        // 2. Try loading from developer Keys.plist (Local dev default)
         if let path = Bundle.main.path(forResource: "Keys", ofType: "plist"),
            let dict = NSDictionary(contentsOfFile: path),
            let key = dict["GEMINI_API_KEY"] as? String {
             return key
         }
+        // 3. Fallback to process environment (Tests / CLI scripts)
         return ProcessInfo.processInfo.environment["GEMINI_API_KEY"] ?? ""
     }
 

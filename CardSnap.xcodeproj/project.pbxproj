@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		30AA1E8D790045BEA08B161C /* ContactPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF329125CD148B8B53F53D4 /* ContactPreviewView.swift */; };
 		3A081BB5E3E5461A93947A11 /* FlexCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F421BB14645E5B1259395 /* FlexCropView.swift */; };
+		9A2A63B9F5A846628A935A23 /* APIKeyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6871AC1F534B0290C90AD2 /* APIKeyInputView.swift */; };
 		3BC111B356AC4E4B8D9BB0ED /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BFBCF1A4DA48F7B2D5C918 /* ProcessingView.swift */; };
 		439E75E307EA44148994E9CC /* CardSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A39F216A8462694B1DA31 /* CardSnapApp.swift */; };
 		73E9C17707C14F1E9D05FD33 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666F174394A41B786E6531B /* OCRService.swift */; };
 		849D7F790752431A942E536C /* ParsedContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF648E53B824CE4A6600A1B /* ParsedContact.swift */; };
 		8C8852B437934147BF219B45 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F21EC5BD12483E95AF7370 /* ContactsService.swift */; };
 		A0BB63B9F5A846628A935A22 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE71AC1F534B0290C90AD6 /* GeminiService.swift */; };
+		9A2A63B9F5A846628A935A21 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6871AC1F534B0290C90AD1 /* KeychainHelper.swift */; };
 		AA2C6F2D256F4409AD3EC77B /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AE0788ED848689AC53724 /* ScannerView.swift */; };
 		B4084AC924EB4299B0C8BD6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD1D1FDAC946C2995BE9EE /* HomeView.swift */; };
 		E8B081BB5E3E5461A93947A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A081BB5E3E5461A93947A1 /* Assets.xcassets */; };
@@ -25,8 +27,10 @@
 		1DF648E53B824CE4A6600A1B /* ParsedContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedContact.swift; sourceTree = "<group>"; };
 		23BFBCF1A4DA48F7B2D5C918 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
 		3E9F421BB14645E5B1259395 /* FlexCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexCropView.swift; sourceTree = "<group>"; };
+		3C6871AC1F534B0290C90AD2 /* APIKeyInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyInputView.swift; sourceTree = "<group>"; };
 		41F21EC5BD12483E95AF7370 /* ContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
 		4CBE71AC1F534B0290C90AD6 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		3C6871AC1F534B0290C90AD1 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		7666F174394A41B786E6531B /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
 		BAAD1D1FDAC946C2995BE9EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BEF329125CD148B8B53F53D4 /* ContactPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPreviewView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 				23BFBCF1A4DA48F7B2D5C918 /* ProcessingView.swift */,
 				BEF329125CD148B8B53F53D4 /* ContactPreviewView.swift */,
 				3E9F421BB14645E5B1259395 /* FlexCropView.swift */,
+				3C6871AC1F534B0290C90AD2 /* APIKeyInputView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				4CBE71AC1F534B0290C90AD6 /* GeminiService.swift */,
+				3C6871AC1F534B0290C90AD1 /* KeychainHelper.swift */,
 				7666F174394A41B786E6531B /* OCRService.swift */,
 				41F21EC5BD12483E95AF7370 /* ContactsService.swift */,
 			);
@@ -177,12 +183,14 @@
 				849D7F790752431A942E536C /* ParsedContact.swift in Sources */,
 				73E9C17707C14F1E9D05FD33 /* OCRService.swift in Sources */,
 				A0BB63B9F5A846628A935A22 /* GeminiService.swift in Sources */,
+				9A2A63B9F5A846628A935A22 /* KeychainHelper.swift in Sources */,
 				8C8852B437934147BF219B45 /* ContactsService.swift in Sources */,
 				B4084AC924EB4299B0C8BD6E /* HomeView.swift in Sources */,
 				AA2C6F2D256F4409AD3EC77B /* ScannerView.swift in Sources */,
 				3BC111B356AC4E4B8D9BB0ED /* ProcessingView.swift in Sources */,
 				30AA1E8D790045BEA08B161C /* ContactPreviewView.swift in Sources */,
 				3A081BB5E3E5461A93947A11 /* FlexCropView.swift in Sources */,
+				9A2A63B9F5A846628A935A23 /* APIKeyInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

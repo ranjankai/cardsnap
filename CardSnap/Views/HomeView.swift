@@ -10,6 +10,7 @@ struct HomeView: View {
     @State private var navigateToProcessing = false
     @State private var selectedPhotoItem: PhotosPickerItem? = nil
     @Namespace private var glassNamespace
+    @State private var showingAPIKeySetup = false
 
     var body: some View {
         NavigationStack {
@@ -209,6 +210,50 @@ struct HomeView: View {
                     }
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        showingAPIKeySetup = true
+                    } label: {
+                        Image(systemName: "gearshape.fill")
+                            .foregroundColor(.white.opacity(0.8))
+                            .font(.system(size: 16, weight: .bold))
+                            .padding(10)
+                            .glassEffect(in: Circle())
+                    }
+                }
+            }
+            .onAppear {
+                checkAPIKeyAvailability()
+            }
+            .fullScreenCover(isPresented: $showingAPIKeySetup, onDismiss: {
+                checkAPIKeyAvailability()
+            }) {
+                APIKeyInputView()
+            }
         }
+    }
+    
+    // MARK: - Key Management
+    private func checkAPIKeyAvailability() {
+        let hasKeychain = KeychainHelper.shared.read() != nil && !KeychainHelper.shared.read()!.isEmpty
+        
+        let hasPlist: Bool = {
+            if let path = Bundle.main.path(forResource: "Keys", ofType: "plist"),
+               let dict = NSDictionary(contentsOfFile: path),
+               let key = dict["GEMINI_API_KEY"] as? String, !key.isEmpty {
+                return true
+            }
+            return false
+        }()
+        
+        let hasEnv = ProcessInfo.processInfo.environment["GEMINI_API_KEY"] != nil && !ProcessInfo.processInfo.environment["GEMINI_API_KEY"]!.isEmpty
+        
+        if !hasKeychain && !hasPlist && !hasEnv {
+            showingAPIKeySetup = true
+        } else {
+            showingAPIKeySetup = false
+        }
+    }
     }
 }
