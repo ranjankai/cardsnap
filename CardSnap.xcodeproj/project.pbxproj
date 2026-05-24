@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30AA1E8D790045BEA08B161C /* ContactPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF329125CD148B8B53F53D4 /* ContactPreviewView.swift */; };
+		3A081BB5E3E5461A93947A11 /* FlexCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F421BB14645E5B1259395 /* FlexCropView.swift */; };
+		3BC111B356AC4E4B8D9BB0ED /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BFBCF1A4DA48F7B2D5C918 /* ProcessingView.swift */; };
+		439E75E307EA44148994E9CC /* CardSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A39F216A8462694B1DA31 /* CardSnapApp.swift */; };
+		73E9C17707C14F1E9D05FD33 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7666F174394A41B786E6531B /* OCRService.swift */; };
+		849D7F790752431A942E536C /* ParsedContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF648E53B824CE4A6600A1B /* ParsedContact.swift */; };
+		8C8852B437934147BF219B45 /* ContactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F21EC5BD12483E95AF7370 /* ContactsService.swift */; };
+		A0BB63B9F5A846628A935A22 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE71AC1F534B0290C90AD6 /* GeminiService.swift */; };
+		AA2C6F2D256F4409AD3EC77B /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1AE0788ED848689AC53724 /* ScannerView.swift */; };
+		B4084AC924EB4299B0C8BD6E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD1D1FDAC946C2995BE9EE /* HomeView.swift */; };
+		E8B081BB5E3E5461A93947A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A081BB5E3E5461A93947A1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15697E258E234662841DFFF2 /* CardSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF648E53B824CE4A6600A1B /* ParsedContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedContact.swift; sourceTree = "<group>"; };
+		23BFBCF1A4DA48F7B2D5C918 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		3E9F421BB14645E5B1259395 /* FlexCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexCropView.swift; sourceTree = "<group>"; };
+		41F21EC5BD12483E95AF7370 /* ContactsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsService.swift; sourceTree = "<group>"; };
+		4CBE71AC1F534B0290C90AD6 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		7666F174394A41B786E6531B /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		BAAD1D1FDAC946C2995BE9EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BEF329125CD148B8B53F53D4 /* ContactPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPreviewView.swift; sourceTree = "<group>"; };
+		DB8A39F216A8462694B1DA31 /* CardSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSnapApp.swift; sourceTree = "<group>"; };
+		DC1AE0788ED848689AC53724 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		E8A081BB5E3E5461A93947A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DBD458555A461AAB5D9D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306FC5B3CE05416CA6DFBF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15697E258E234662841DFFF2 /* CardSnap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DF0D998FBF84CC99C20A562 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD1D1FDAC946C2995BE9EE /* HomeView.swift */,
+				DC1AE0788ED848689AC53724 /* ScannerView.swift */,
+				23BFBCF1A4DA48F7B2D5C918 /* ProcessingView.swift */,
+				BEF329125CD148B8B53F53D4 /* ContactPreviewView.swift */,
+				3E9F421BB14645E5B1259395 /* FlexCropView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9363587891FC48668447F9AE /* CardSnap */ = {
+			isa = PBXGroup;
+			children = (
+				E8A081BB5E3E5461A93947A1 /* Assets.xcassets */,
+				DB8A39F216A8462694B1DA31 /* CardSnapApp.swift */,
+				A1EB0BBE9FD648B8A61CA2A0 /* Models */,
+				9EA301549D21450FBA6EF7A4 /* Services */,
+				4DF0D998FBF84CC99C20A562 /* Views */,
+			);
+			path = CardSnap;
+			sourceTree = "<group>";
+		};
+		9EA301549D21450FBA6EF7A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE71AC1F534B0290C90AD6 /* GeminiService.swift */,
+				7666F174394A41B786E6531B /* OCRService.swift */,
+				41F21EC5BD12483E95AF7370 /* ContactsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1EB0BBE9FD648B8A61CA2A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DF648E53B824CE4A6600A1B /* ParsedContact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4A014962F2144A0A46C8DAA = {
+			isa = PBXGroup;
+			children = (
+				9363587891FC48668447F9AE /* CardSnap */,
+				306FC5B3CE05416CA6DFBF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AEC1EF52FEC4705B2BFC637 /* CardSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B211D75C9066449A93808AC7 /* Build configuration list for PBXNativeTarget "CardSnap" */;
+			buildPhases = (
+				B9D9D8762BB24648B5762CC2 /* Sources */,
+				17DBD458555A461AAB5D9D0E /* Frameworks */,
+				BF9D801A5BFB498191B8F7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSnap;
+			productName = CardSnap;
+			productReference = 15697E258E234662841DFFF2 /* CardSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0251230F17D44638B9016097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1700;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					2AEC1EF52FEC4705B2BFC637 = {
+						CreatedOnToolsVersion = 17.0;
+					};
+				};
+			};
+			buildConfigurationList = BE52027BF9E4498F8E2CE2FE /* Build configuration list for PBXProject "CardSnap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4A014962F2144A0A46C8DAA;
+			productRefGroup = 306FC5B3CE05416CA6DFBF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AEC1EF52FEC4705B2BFC637 /* CardSnap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9D801A5BFB498191B8F7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B081BB5E3E5461A93947A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9D9D8762BB24648B5762CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439E75E307EA44148994E9CC /* CardSnapApp.swift in Sources */,
+				849D7F790752431A942E536C /* ParsedContact.swift in Sources */,
+				73E9C17707C14F1E9D05FD33 /* OCRService.swift in Sources */,
+				A0BB63B9F5A846628A935A22 /* GeminiService.swift in Sources */,
+				8C8852B437934147BF219B45 /* ContactsService.swift in Sources */,
+				B4084AC924EB4299B0C8BD6E /* HomeView.swift in Sources */,
+				AA2C6F2D256F4409AD3EC77B /* ScannerView.swift in Sources */,
+				3BC111B356AC4E4B8D9BB0ED /* ProcessingView.swift in Sources */,
+				30AA1E8D790045BEA08B161C /* ContactPreviewView.swift in Sources */,
+				3A081BB5E3E5461A93947A11 /* FlexCropView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		280D3A89EAED436394848BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N4CCL9A789;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INITIALIZATION_PROTECTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92D46DF724A845DEACC9F7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTCAT_COMPILER_OPTIMIZATION = space;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BizCardSnapper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "CardSnap uses the camera to scan business cards.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "CardSnap saves parsed contacts to your address book.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "CardSnap lets you import a business card photo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LE_SWIFT_VERSION = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkant.cardsnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		B010924A368C4A53B0F5F3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BizCardSnapper;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "CardSnap uses the camera to scan business cards.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "CardSnap saves parsed contacts to your address book.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "CardSnap lets you import a business card photo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rkant.cardsnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+		BCA6C947C96A4EEDB6C40464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N4CCL9A789;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INITIALIZATION_PROTECTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B211D75C9066449A93808AC7 /* Build configuration list for PBXNativeTarget "CardSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D46DF724A845DEACC9F7D4 /* Debug */,
+				B010924A368C4A53B0F5F3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE52027BF9E4498F8E2CE2FE /* Build configuration list for PBXProject "CardSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280D3A89EAED436394848BDA /* Debug */,
+				BCA6C947C96A4EEDB6C40464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0251230F17D44638B9016097 /* Project object */;
+}

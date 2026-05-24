@@ -1,0 +1,29 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/xcschemes/
+*.xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xsyncdir
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/xcode/
+
+# Secrets
+*Keys.plist
