@@ -231,12 +231,7 @@ struct APIKeyInputView: View {
             return
         }
         
-        guard trimmedKey.hasPrefix("AIzaSy") || trimmedKey.hasPrefix("AQ.") else {
-            haptic.notificationOccurred(.error)
-            errorMessage = "Invalid key format. Gemini keys must start with 'AIzaSy' or 'AQ.'."
-            withAnimation { showingError = true }
-            return
-        }
+
         
         // Save securely to device Keychain
         KeychainHelper.shared.save(trimmedKey)
